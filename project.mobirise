@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Site-12-08_0842",
+    "name": "friskdiamond",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
@@ -48,7 +48,7 @@
       "currency": "USD"
     },
     "favicon": "@PROJECT_PATH@/assets/images/icons8-diamond-color-96.png",
-    "mbrsiteDomain": "nkfss4lgyh",
+    "mbrsiteDomain": "adxez8wmao",
     "imageResize": false,
     "usedWebp": false,
     "robotsSwitcher": false,
@@ -66,7 +66,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "FriskDiamond",
+        "title": "Frisk Diamond",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -222,10 +222,10 @@
               }
             },
             ".mbr-text, .mbr-section-btn": {
-              "color": "#ffffff"
+              "color": "#000000"
             },
             ".mbr-section-title": {
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
           "_cid": "tYnhzpjhpv",
