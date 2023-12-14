@@ -7,9 +7,9 @@
       "title": "Mobirise 5",
       "titlePreset": "Mobirise 5",
       "styling": {
-        "primaryColor": "#6592e6",
+        "primaryColor": "#52f4aa",
         "secondaryColor": "#ff6666",
-        "successColor": "#40b0bf",
+        "successColor": "#8e30eb",
         "infoColor": "#47b5ed",
         "warningColor": "#FFE161",
         "dangerColor": "#ff9966",
@@ -31,7 +31,8 @@
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
-        "#8e30eb"
+        "#8e30eb",
+        "#52f4aa"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -57,8 +58,9 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "uniqCompNum": 1,
-    "versionPublish": "5.8.4"
+    "uniqCompNum": 5,
+    "versionPublish": "5.8.4",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -74,7 +76,7 @@
         {
           "_name": "header02",
           "_sourceTheme": "designerm4",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Icons\" name=\"iconsCount\" min=\"1\" max=\"5\" step=\"1\" value=\"4\">\n        <header>Color</header>\n        <input type=\"color\" name=\"iconsColor\" title=\"Icons\" value=\"#ffffff\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/jonathan-birkin-received-513565706718114.gif\" parallax selected>\n            <input type=\"color\" title=\"Color\" value=\"#131419\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/designerm4/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-12 col-lg-10\">\n                <h2 class=\"mbr-section-subtitle align-left mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showSubitle\">Ordinals &amp; NFTs<br>I have diamond hands, and I make art.\n<div><br></div></h2>\n                <h1 class=\"mbr-section-title align-left mbr-fonts-style mb-5\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Frisk Diamond</b></h1>\n                <p class=\"mbr-text align-left mbr-fonts-style pb-5\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Lorem ipsum dolor\n                    sit amet, consectetur adipiscing elit. Fusce a semper metus, vel pretium quam.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"align-left mbr-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-lg btn-white-outline\" href=\"https://nostr.com/npub1lt28a4rx9ramjh29sgm3xryqycg3pwfuu526kg5kjklqr42lx93sptats2\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mdi-communication-vpn-key mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(142, 48, 235);\"></span>npub1lt28a4rx9ramjh29sgm3xryqycg3pwfuu526kg5kjklqr42lx93sptats2<br></a> <a class=\"btn btn-lg btn-white-outline\" href=\"https://getalby.com/p/friskdiamond\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"imind-thunder mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 225, 97);\"></span><br>friskdiamond@getalby.com\n<br><br></a></div>\n            </div>\n        </div>\n    </div>\n    <div class=\"icons-wrapper\">\n        <div class=\"icon-wrapper\" mbr-if=\"iconsCount > 0\">\n            <a href=\"mailto:r6rb3qoz9@mozmail.com\"><span mbr-icon class=\"mbr-iconfont socicon-mail socicon\"></span></a>\n        </div>\n        <div class=\"icon-wrapper\" mbr-if=\"iconsCount > 1\">\n            <a href=\"https://www.instagram.com/friskdiamond/\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont socicon-instagram socicon\"></span></a>\n        </div>\n        <div class=\"icon-wrapper\" mbr-if=\"iconsCount > 2\">\n            <a href=\"https://www.facebook.com/frisk.diamond/\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont socicon-facebook socicon\"></span></a>\n        </div>\n        <div class=\"icon-wrapper\" mbr-if=\"iconsCount > 3\">\n            <a href=\"https://twitter.com/friskdiamond\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont socicon-twitter socicon\"></span></a>\n        </div>\n        <div class=\"icon-wrapper\" mbr-if=\"iconsCount > 4\">\n            <span mbr-icon class=\"mbr-iconfont socicon-facebook socicon\"></span>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Icons\" name=\"iconsCount\" min=\"1\" max=\"5\" step=\"1\" value=\"4\">\n        <header>Color</header>\n        <input type=\"color\" name=\"iconsColor\" title=\"Icons\" value=\"#ffffff\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/favicon.png\" parallax selected>\n            <input type=\"color\" title=\"Color\" value=\"#131419\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/designerm4/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-12 col-lg-10\">\n                <h2 class=\"mbr-section-subtitle align-left mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showSubitle\"><a href=\"index.html#content05-4\" class=\"text-primary\">Next Drop&nbsp;▼</a><br><div><br></div></h2>\n                <h1 class=\"mbr-section-title align-left mbr-fonts-style mb-5\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Frisk Diamond</b></h1>\n                <p class=\"mbr-text align-left mbr-fonts-style pb-5\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">I have diamond hands, and I make art.&nbsp;<br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"align-left mbr-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-lg btn-success-outline\" href=\"https://nostr.com/npub1lt28a4rx9ramjh29sgm3xryqycg3pwfuu526kg5kjklqr42lx93sptats2\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mdi-communication-vpn-key mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(142, 48, 235);\"></span>npub1lt28a4rx9ramjh29sgm3xryqycg3pwfuu526kg5kjklqr42lx93sptats2<br></a> <a class=\"btn btn-lg btn-warning-outline\" href=\"https://getalby.com/p/friskdiamond\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"imind-thunder mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 225, 97);\"></span><br>friskdiamond@getalby.com\n<br><br></a></div>\n            </div>\n        </div>\n    </div>\n    <div class=\"icons-wrapper\">\n        <div class=\"icon-wrapper\" mbr-if=\"iconsCount > 0\">\n            <a href=\"mailto:r6rb3qoz9@mozmail.com\"><span mbr-icon class=\"mbr-iconfont socicon-mail socicon\"></span></a>\n        </div>\n        <div class=\"icon-wrapper\" mbr-if=\"iconsCount > 1\">\n            <a href=\"https://www.instagram.com/friskdiamond/\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont socicon-instagram socicon\"></span></a>\n        </div>\n        <div class=\"icon-wrapper\" mbr-if=\"iconsCount > 2\">\n            <a href=\"https://www.facebook.com/frisk.diamond/\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont socicon-facebook socicon\"></span></a>\n        </div>\n        <div class=\"icon-wrapper\" mbr-if=\"iconsCount > 3\">\n            <a href=\"https://twitter.com/friskdiamond\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont socicon-twitter socicon\"></span></a>\n        </div>\n        <div class=\"icon-wrapper\" mbr-if=\"iconsCount > 4\">\n            <span mbr-icon class=\"mbr-iconfont socicon-facebook socicon\"></span>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 1rem)",
@@ -87,7 +89,7 @@
               "background-color": "@bg-value"
             },
             ".mbr-text, .mbr-section-btn": {
-              "color": "#bbbbbb",
+              "color": "#ffffff",
               "text-align": "center"
             },
             ".mbr-section-btn": {
@@ -151,6 +153,83 @@
           },
           "_cid": "tXNbUXm2V1",
           "_anchor": "header02-0",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "content05",
+          "_sourceTheme": "beveragem5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article5\" group=\"Article\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"7\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/beveragem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#52f4aa\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"wave-container\">\n        <svg class=\"svg-top\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 1600 40\" style=\"enable-background:new 0 0 1600 40;\" preserveAspectRatio=\"none\">\n            <style type=\"text/css\">\n                .st0 {\n                    fill: #1A449A;\n                }\n            </style>\n            <path class=\"st0\" d=\"M-1,15.7c200.1,0,200.7,13.8,400.9,13.8C600,29.5,600.4,9.3,800.5,9.3S998.8,36.8,1199,36.8\n                s201.9-21.1,402-21.1v24.1L-1,40V15.7z\"></path>\n        </svg>\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-12 col-lg-{{imageWidth}} image-wrapper m-auto\">\n                <img class=\"w-100 md-pb\" src=\"@PROJECT_PATH@/assets/images/sneakers-1.png\" alt=\"Mobirise\">\n            </div>\n            <div class=\"col-12 col-md-12 col-lg m-auto\">\n                <div class=\"text-wrapper align-left\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style mb-4\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Sneaker Drop.</b></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Step into the vibrant world of pixelated footwear with Frisk Diamond's extraordinary creation, a unique set of 49 sneaker pixel art pieces. Each meticulously crafted design showcases Frisk Diamond's unparalleled talent, bringing a fusion of artistry and digital precision to the world of sneakers. From classic silhouettes to futuristic concepts, this ordinal collection captures the essence of sneaker culture in a pixelated universe. Frisk Diamond's distinctive style and attention to detail make this collection a true masterpiece, appealing to both sneaker enthusiasts and pixel art aficionados alike. Lace up and explore the limitless possibilities of Frisk Diamond's pixelated sneaker world.\n<br>\n<br><br></p>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-lg btn-black\" href=\"https://gamma.io/bc1ptxhrcd7lle5vnqpm07eytylm3qq0trlg89wccd9pj3srnwzy95gsecf52z\" data-app-placeholder=\"Type Text\" target=\"_blank\">View</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              ".svg-top": {
+                "display": "none"
+              }
+            },
+            "& when (@reverseContent)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".wave-container": {
+              "position": "absolute",
+              "left": "0",
+              "top": "-110px",
+              "height": "113px",
+              "overflow": "hidden",
+              "width": "100%"
+            },
+            ".svg-top": {
+              "width": "100%",
+              "position": "absolute",
+              "left": "0",
+              "bottom": "0",
+              "height": "50px",
+              "transform-origin": "bottom",
+              "animation": "1.5s ease-in-out infinite alternate svg-wave",
+              ".st0": {
+                "fill": "@bg-value"
+              },
+              "@media (max-width: 992px)": {
+                "width": "1000px"
+              },
+              "fill": "@primaryColor"
+            },
+            "@keyframes svg-wave": {
+              "from": {
+                "transform": "scaleX(1) scaleY(1.1)"
+              },
+              "to": {
+                "transform": "scaleX(1) scaleY(1.6)"
+              }
+            },
+            "@media (min-width: 1400px)": {
+              ".col-12": {
+                "padding": "0 2rem"
+              },
+              ".row": {
+                "margin": "0 -2rem"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#000000"
+            },
+            ".mbr-section-title": {
+              "color": "#000000"
+            }
+          },
+          "_cid": "tYnhzpjhpv",
+          "_anchor": "content05-4",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
